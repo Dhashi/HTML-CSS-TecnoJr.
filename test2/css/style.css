@@ -1,0 +1,58 @@
+body {
+    background-image: url(../images/back.jpg);
+    padding: 100px;
+    padding-top: 0px;
+    margin-top: 10%;
+}
+
+.nav {
+    position: fixed;  
+    width: 100%;
+    top: 10px;
+	left: 0px;
+}
+
+.nav ul{
+	list-style: none;
+	display: inline;
+	width: 100%;
+	margin: 0;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 10px;
+	background-color: red;
+	cursor: pointer;
+	transition: background-color 0.5s ease-in-out, color 0.5s ease;
+}
+
+.nav ul li:hover{
+	background-color: yellow;
+	color: red;
+}
+
+.nav ul a{
+	text-decoration: none;
+	color: white;
+}
+
+div#main {
+    /*background-image: url(../images/div-back.png)*/
+    background-color: white;
+    border: 17px solid yellow;
+}
+
+div#text-1 {
+    margin: 0px 25px 25px 25px;
+}
+
+dix#geracoes, table, th, td {
+    border: 1px solid black;
+    margin: 25px 25px 25px 25px;
+}
+  
+div#video iframe {
+    margin: 0px 25px 25px 25px;
+}
+  
