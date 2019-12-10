@@ -1,40 +1,18 @@
-.login {
-    width: 100%;
-    align-content: center;
-    text-align: center;
+.middle .login {
+    display: block;
+    width: 40%;
+    height: 40%;
     border-style: solid;
     border-color: black;
+    margin: auto;
+    margin-top: 80px;
 }
 
-.buttom {
+.middle .buttom {
     background-color: red;
     padding: 10px;
-}
-
-
-/*Organização das Colunas*/
-
-.col-left,
-.col-right,
-.middle {
-    padding: 10px;
-}
-
-
-/* Style the left column */
-
-.col-left {
-    grid-area: left;
-}
-
-.col-right {
-    grid-area: right;
-}
-
-.col-left,
-.col-right {
-    width: 245px;
-    background-image: url("../images/index-back.jpg");
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -42,7 +20,36 @@
 
 .middle {
     grid-area: middle;
+    background-color: lightgray;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.content {
+    grid-area: middle;
     text-align: center;
-    margin-top: 70px;
-    width: 850px;
+    text-justify: auto;
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: 25px 25px 25px 25px;
+}
+
+div#video iframe {
+    margin: 0px 25px 25px 25px;
+    padding: 2px;
+    width: 500px;
+    height: 400px;
 }

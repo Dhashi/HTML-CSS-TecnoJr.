@@ -20,20 +20,16 @@
 
         <div class="header">
 
-            <nav class="home">
-                <ul id="navegacao">
-                    <a href="../index.html">
-                        <li><img src="../images/icone.png" class="media-object img-responsive img-thumbnail" style="width: 50px; height: 63px;"></li>
-                    </a>
-                </ul>
-            </nav>
-
-            <nav class="nav">
-                <ul id="navegacao">
+            <nav class="nav-bar">
+                <a href="../index.html">
+                    <img src="../icone.png" class="media-object  img-responsive img-thumbnail" style="width: 65px; height: 80px;">
+                </a>
+                <ul>
                     <a href="tutorial.html">
                         <li>Tutorial</li>
                     </a>
-                    <a href="html/compra.html">
+
+                    <a href="compra.html">
                         <li>Compre Aqui</li>
                     </a>
                 </ul>
@@ -41,75 +37,75 @@
 
         </div>
 
-        <div class="col-right"></div>
+        <div class="middle">
 
-        <div class="col-left"></div>
+            <div class="content">
+                <form method="post">
 
-        <div class="column middle">
-            <form method="post">
+                    <fieldset>
+                        Informações do Usuário:
+                        <p>Nome: <input type="text" size="50" maxlength="40"></p>
+                        <p>Email: <input type="email" size="50" maxlength="40" /> </p>
+                        <p>CPF: <input type="number" min="0" max="99999999999" /></p>
+                        <p>Data de Nascimento <input type="date" /></p>
 
-                <fieldset>
-                    Informações do Usuário:
-                    <p>Nome: <input type="text" size="50" maxlength="40"></p>
-                    <p>Email: <input type="email" size="50" maxlength="40" /> </p>
-                    <p>CPF: <input type="number" min="0" max="99999999999" /></p>
-                    <p>Data de Nascimento <input type="date" /></p>
+                        <p>Bandeira:
+                            <select>
+                                        <option>Mastercard</option>
+                                        <option>Visa</option>
+                                        <option>Cielo</option>
+                                        <option>Mercado Pago</option>
+                                    </select>
+                        </p>
 
-                    <p>Bandeira:
-                        <select>
-                            <option>Mastercard</option>
-                            <option>Visa</option>
-                            <option>Cielo</option>
-                            <option>Mercado Pago</option>
-                        </select>
-                    </p>
+                        <p>Númeo do Cartão <input type="number" /> </p>
+                        <p>Código de Autenticação <input type="number" min="000" max="999" /></p>
+                    </fieldset>
 
-                    <p>Númeo do Cartão <input type="number" /> </p>
-                    <p>Código de Autenticação <input type="number" min="000" max="999" /></p>
-                </fieldset>
+                    <fieldset>
+                        Informações de Entrega:
+                        <p>Estado
+                            <select>
+                                        <option>Bahia</option>
+                                        <option>São Paulo</option>
+                                         </select>
+                        </p>
 
-                <fieldset>
-                    Informações de Entrega:
-                    <p>Estado
-                        <select>
-                            <option>Bahia</option>
-                            <option>São Paulo</option>
-                             </select>
-                    </p>
+                        <p>Cidade
+                            <select>
+                                        <option>Ilheus</option>
+                                        <option>Itabuna</option>
+                                    </select>
+                        </p>
 
-                    <p>Cidade
-                        <select>
-                            <option>Ilheus</option>
-                            <option>Itabuna</option>
-                        </select>
-                    </p>
+                        <p>Bairro <input type="text" size="50" maxlength="40" /></p>
+                        <p>Endereço <input type="text" size="50" maxlength="40" /></p>
+                        <p>CEP <input type="number" min="0" maxlength="99999999" </p>
+                    </fieldset>
 
-                    <p>Bairro <input type="text" size="50" maxlength="40" /></p>
-                    <p>Endereço <input type="text" size="50" maxlength="40" /></p>
-                    <p>CEP <input type="number" min="0" maxlength="99999999" </p>
-                </fieldset>
+                    <fieldset>
+                        Informações do Produto:
+                        <p>Modelo
+                            <select>
+                                        <option>A</option>
+                                        <option>B</option>
+                                        <option>A+</option>
+                                        <option>B+</option>
+                                        <option>2B</option>
+                                        <option>Pi 0</option>
+                                        <option>Pi 0W</option>
+                                        <option>3B</option>
+                                        <option>3B+</option>
+                                        <option>3A+</option>
+                                    </select>
+                        </p>
 
-                <fieldset>
-                    Informações do Produto:
-                    <p>Modelo
-                        <select>
-                            <option>A</option>
-                            <option>B</option>
-                            <option>A+</option>
-                            <option>B+</option>
-                            <option>2B</option>
-                            <option>Pi 0</option>
-                            <option>Pi 0W</option>
-                            <option>3B</option>
-                            <option>3B+</option>
-                            <option>3A+</option>
-                        </select>
-                    </p>
+                        <p>Quantide <input type="number" /></p>
+                    </fieldset>
 
-                    <p>Quantide <input type="number" /></p>
-                </fieldset>
+                </form>
+            </div>
 
-            </form>
         </div>
 
 
