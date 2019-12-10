@@ -1,0 +1,48 @@
+.login {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.buttom {
+    background-color: red;
+    padding: 10px;
+}
+
+
+/*Organização das Colunas*/
+
+.col-left,
+.col-right,
+.middle {
+    padding: 10px;
+}
+
+
+/* Style the left column */
+
+.col-left {
+    grid-area: left;
+}
+
+.col-right {
+    grid-area: right;
+}
+
+.col-left,
+.col-right {
+    width: 245px;
+    background-image: url("../images/index-back.jpg");
+}
+
+
+/* Conteúdo Principal */
+
+.middle {
+    grid-area: middle;
+    text-align: center;
+    margin-top: 70px;
+    width: 850px;
+}
