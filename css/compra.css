@@ -2,9 +2,10 @@
 
 .middle {
     grid-area: middle;
-    background-color: lightgray;
+    background-image: url("../images/compra-middle-back.png");
+    background-repeat: no-repeat;
     margin-top: 100px;
-    padding-top: 40px;
+    padding-top: 7px;
     padding-bottom: 25px;
     width: 100%;
 }
@@ -15,7 +16,6 @@
     text-justify: auto;
     width: 75%;
     margin: 0 auto;
-    padding: 15px;
     background-color: white;
 }
 
