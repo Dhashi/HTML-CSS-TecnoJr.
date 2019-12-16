@@ -1,0 +1,5 @@
+Comandos para iniciação do Compilador do SASS
+
+main.css:
+    sass main.scss ../css/main.css --watch
+
