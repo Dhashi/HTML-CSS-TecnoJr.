@@ -3,13 +3,13 @@
 
 <head>
 
-    <link rel="stylesheet" href="../css/tutorial.css">
+    <link rel="stylesheet" href="../css/forum.css">
+
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
-
 
     <div class="master">
 
@@ -22,8 +22,8 @@
                 </a>
 
                 <ul>
-                    <a href="tutorial.html">
-                        <li>Tutorial</li>
+                    <a href="forum.html">
+                        <li>Forum</li>
                     </a>
 
                     <a href="compra.html">
@@ -43,16 +43,22 @@
 
                     <div class="input">
 
+                        <div class="limag">
+                            <img src="../images/login-image.png" height="82" width="82">
+                        </div>
+
                         <form method="GET">
 
-                            <p>Login: <input type="text"></p>
+                            <p>Login: <input type="text" name="tlogin" id="clogin"></p>
 
-                            <p>Senha: <input type="password"></p>
+                            <p>Senha: <input type="password" name="tsenha" id="csenha"></p>
+
+                            <input type="button" class="loginbutton" value="Logar" onclick="validacao();">
+
+                            <a href="cadastro.html" class="cadbutton">Cadastre-se</a>
 
                         </form>
                     </div>
-
-                    <div class="buttom">Logar</div>
 
                 </div>
 
