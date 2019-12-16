@@ -1,0 +1,16 @@
+Comandos para iniciação do Compilador do SASS
+
+main.css:
+    sass main.scss ../css/main.css --watch
+
+index.css:
+    sass index.scss ../css/index.css --watch
+    
+forum.css:
+    sass forum.scss ../css/forum.css --watch
+    
+compra.css:
+    sass compra.scss ../css/compra.css --watch
+
+cadastro.css:
+    sass cadastro.scss ../css/cadastro.css --watch
