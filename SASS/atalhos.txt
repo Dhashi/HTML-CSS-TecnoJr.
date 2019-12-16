@@ -3,3 +3,5 @@ Comandos para iniciação do Compilador do SASS
 main.css:
     sass main.scss ../css/main.css --watch
 
+index.css:
+    sass index.scss ../css/index.css --watch
