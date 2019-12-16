@@ -1,69 +1,69 @@
+@charset "UTF-8";
 /* Conteúdo Principal */
-
 .middle {
-    grid-area: middle;
-    background-color: lightgray;
-    margin-top: 100px;
-    padding-top: 40px;
-    padding-bottom: 25px;
-    width: 100%;
-    height: 700px;
+  grid-area: middle;
+  background-color: lightgray;
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: 700px;
 }
 
 .content {
-    grid-area: middle;
-    text-align: center;
-    text-justify: auto;
-    width: auto;
-    margin: auto;
-    padding: 15px;
-    height: auto;
-    margin-bottom: 100px;
+  grid-area: middle;
+  text-align: center;
+  text-justify: auto;
+  width: auto;
+  margin: auto;
+  padding: 15px;
+  height: auto;
+  margin-bottom: 100px;
 }
-
-.middle .content .login .input .limag {
-    margin-top: 20px;
-}
-
-.middle .login {
-    display: block;
-    width: 25%;
-    height: 40%;
-    border: 2px solid black;
-    margin: auto;
-    margin-top: 190px;
-    background-color: white;
-}
-
 .content p {
-    text-align: center;
+  text-align: center;
+}
+
+.login {
+  display: block;
+  width: 25%;
+  height: 40%;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 190px;
+  background-color: white;
+}
+.login .limag {
+  margin-top: 20px;
 }
 
 .loginbutton {
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 80%;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 80%;
 }
 
-.middle .content .login .input .cadbutton {
-    background-color: grey;
-    border: none;
-    color: white;
-    padding: 5px 10px 15px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 3px 0px 15px 0px;
-    cursor: pointer;
-    width: 75%;
-    height: 10px;
+.cadbutton {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 5px 10px 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 0px 15px 0px;
+  cursor: pointer;
+  width: 75%;
+  height: 10px;
 }
+
+/*# sourceMappingURL=forum.css.map */
