@@ -29,10 +29,3 @@ td {
     border: 1px solid black;
     margin: 25px 25px 25px 25px;
 }
-
-div#video iframe {
-    margin: 0px 25px 25px 25px;
-    padding: 2px;
-    width: 500px;
-    height: 400px;
-}
