@@ -1,23 +1,22 @@
 /* Conteúdo Principal */
 
-.middle {
-    grid-area: middle;
+.master {
     background-color: red;
-    margin-top: 100px;
-    padding-top: 50px;
-    padding-bottom: 25px;
+}
+
+.middle {
+    background-color: red;
+    margin-top: 90px;
+    margin-bottom: 10px;
 }
 
 .content {
-    grid-area: middle;
     text-align: center;
     text-justify: auto;
-    width: 75%;
     border-style: solid;
     border-width: 15px;
     border-color: #fdc954;
     margin: 0 auto;
-    padding: 15px;
     background-image: url("../images/index-content-back.png");
     p {
         text-align: justify;
@@ -32,7 +31,7 @@
         margin: auto;
         border: 1px solid black;
         margin: 25px 25px 25px 25px;
-        background-color: white;
+        background-color: black;
     }
 }
 
