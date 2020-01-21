@@ -1,0 +1,125 @@
+$nav-color: #B63117;
+$footer-color: #696969;
+
+/*Organizações Gerais da Página*/
+
+
+/* reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*AINDA NÃO SOME AS BARRAS LATERAIS NESSE TAMANHO*/
+
+
+/* conteiner */
+
+.master {
+    display: grid;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1170px) {
+    .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+}
+
+
+/* linha */
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+/* colunas */
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    width: 100%;
+    margin-right: -4px;
+    *zoom: 1;
+    *display: inline;
+}
+
+.col-l,
+.col-r {
+    width: 0%;
+}
+
+
+/* tres colunas */
+
+@media (min-width: 728px) {
+    .col-l,
+    .col-r {
+        width: 15%;
+    }
+    .content {
+        width: 70%;
+    }
+}
+
+
+/*Organização do Header*/
+
+.header {
+    grid-area: header;
+    position: fixed;
+    background-color: $nav-color;
+    width: 100%;
+    .nav-bar {
+        img {}
+        ul {
+            list-style: none;
+            display: inline;
+            position: fixed;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            li {
+                display: inline;
+                font-weight: bolder;
+                background-color: red;
+                cursor: pointer;
+                transition: background-color 0.5s ease-in-out, color 0.5s ease;
+                li:hover {
+                    background-color: yellow;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    a {
+        color: $footer-color;
+        text-decoration: none;
+    }
+}
